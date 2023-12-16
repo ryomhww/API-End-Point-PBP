@@ -1,7 +1,7 @@
 const { response } = require("express");
 
 const postData = {
-    nip: '19501021',
+    nip: '1102021',
     nama: 'Kurniawan',
     gender: 'L',
     prodi: 'TE',
