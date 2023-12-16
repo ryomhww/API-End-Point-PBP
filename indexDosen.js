@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const dosenNip ='19501020';
+const dosenNip ='1102019';
 const updateData = {
     nama: 'Irawan',
     gender: 'L',
