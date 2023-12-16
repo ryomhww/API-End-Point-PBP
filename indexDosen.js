@@ -1,6 +1,6 @@
 const { response } = require("express");
 
-const dosenNim ='19501020';
+const dosenNip ='19501020';
 const updateData = {
     nama: 'Irawan',
     gender: 'L',
@@ -8,7 +8,7 @@ const updateData = {
     alamat: 'Cibatu'
 };
 
-fetch(`http://localhost:3000/dosen/${dosenNim}`, {
+fetch(`http://localhost:3000/dosen/${dosenNip}`, {
     method: 'PUT',
     headers: {
         'Content-Type': 'application/json'
